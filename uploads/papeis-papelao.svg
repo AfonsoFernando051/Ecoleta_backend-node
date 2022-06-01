@@ -1,60 +1,7 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 512 512" width="83.328px" height="83.328px"  style="enable-background:new 0 0 512 512;" xml:space="preserve">
-<g>
-	<g>
-		<polygon points="445.494,406.856 344.886,471.093 51.868,471.093 0,504.21 335.098,504.21 487.573,406.856 		"/>
-	</g>
-</g>
-<g>
-	<g>
-		<polygon points="445.493,343.344 344.886,407.58 51.868,407.58 0,440.698 335.098,440.698 487.573,343.344 		"/>
-	</g>
-</g>
-<g>
-	<g>
-		<polygon points="425.156,135.987 90.058,135.987 176.902,233.791 512,233.791 		"/>
-	</g>
-</g>
-<g>
-	<g>
-		<polygon points="176.902,7.79 90.058,105.593 425.156,105.593 512,7.79 		"/>
-	</g>
-</g>
-<g>
-	<g>
-		<polygon points="176.902,264.185 0,377.186 335.098,377.186 512,264.185 		"/>
-	</g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="8" y="7" width="48" height="24" fill="#34CB79"/>
+<rect x="55" y="1" width="62" height="46" rx="4" transform="rotate(90 55 1)" stroke="#322153" stroke-width="2"/>
+<line x1="15" y1="37" x2="33" y2="37" stroke="#322153" stroke-width="2" stroke-linejoin="round"/>
+<line x1="15" y1="42" x2="33" y2="42" stroke="#322153" stroke-width="2" stroke-linejoin="round"/>
+<line x1="15" y1="47" x2="33" y2="47" stroke="#322153" stroke-width="2" stroke-linejoin="round"/>
 </svg>
