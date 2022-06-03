@@ -181,12 +181,12 @@
 //         //     }
 //         // })
 
-//         const pointItems = items.map((item_id: Number) => {
-//             return {
-//                 item_id,
-//                 point_id,
-//             }
-//         })
+        // const pointItems = items.map((item_id: Number) => {
+        //     return {
+        //         item_id,
+        //         point_id,
+        //     }
+        // })
     
 //         await trx("point_items").insert(pointItems);
 
@@ -207,8 +207,7 @@ class PointsController {
   async index(request: Request, response: Response) {
     const { city, uf, items } = request.query;
 
-    const parsedItems = String(items)
-      .split(",")
+    const parsedItems = String(items).split(",")
       .map((item) => Number(item.trim()));
 
     const points = await knex("points")
@@ -268,7 +267,7 @@ class PointsController {
     const trx = await knex.transaction();
 
     const point = {
-      image: request.file.filename,
+      image: "https://www.vmcdn.ca/f/files/shared/food/adobe-stock-food-market.jpeg;w=400",
       name,
       email,
       whatsapp,
@@ -282,15 +281,22 @@ class PointsController {
 
     const point_id = insertedIds[0];
 
-    const pointItems = items
-      .split(",")
-      .map((item: string) => Number(item.trim()))
-      .map((item_id: number) => {
+    const pointItems = items.map((item_id: Number) => {
         return {
-          item_id,
-          point_id,
-        };
-      });
+            item_id,
+            point_id,
+        }
+    })
+
+    // const pointItems = items
+    //   .split(",")
+    //   .map((item: string) => Number(item.trim()))
+    //   .map((item_id: number) => {
+    //     return {
+    //       item_id,
+    //       point_id,
+    //     };
+    //   });
 
     await trx("point_items").insert(pointItems);
 
